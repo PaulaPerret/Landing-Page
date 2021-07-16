@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100%;
+}
+/*NAVIGATION*/
+
+nav.heading {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+ul {
+    width: 100%;
+    height: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+a.nav {
+    text-decoration: none;
+    padding: 15px 15px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+a.nav:hover {
+    border-bottom: 2px solid #f2cb05;
+    opacity: 0.9;
+    color: black;
+    cursor: pointer;
+}
+/*HEADER SECTION*/
+header {
+    background-color: #f2cb05;
+    border-radius: 20px;
+    height: 450px;
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+span {
+    color: black;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+/*BACKGROUND IMAGE */
+section.background {
+    background-image: url('images/markus-spiske-wL7pwimB78Q-unsplash.jpg');
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    margin: 0 auto;
+}
+/*MAIN SECTION */
+section.main {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+/*FORM*/
+div.localstorage {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+input[type='email'] {
+    width: 60%;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+}
+input[type='button'] {
+    height: 50px;
+    width: 80px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: #f2f2f2;
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px;
+}
+input[type='submit']:hover {
+    opacity: 0.9;
+    color: black;
+    background-color: #f2f2f2;
+}
+/*SECONDARY INFO*/
+div.secondaryheader {
+    background-color: #d4d3cf;
+    position: relative;
+    top: 0 px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3.secondary {
+    border: 3px solid black;
+    background-color: #f2f2f2;
+    box-shadow: 15px 15px #f2cb05;
+    border-radius: 5px;
+    font-size: 3rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: black;
+    margin-top: 4%;
+    padding: 2% 2%;
+}
+img.img-text {
+    max-width: 50%;
+    height: auto;
+    overflow: hidden;
+}
+img.img-text:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+section.pictures {
+    background-color: #d4d3cf;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+figure {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5%;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 1%;
+}
+
+/*FOOTER*/
+
+section.footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+ul.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+li.footing {
+    padding: 2% 0;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+li.footing:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
